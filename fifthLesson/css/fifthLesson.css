@@ -1,0 +1,18 @@
+.box{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation: boxanima 8s ease-out infinite;
+
+}
+
+@keyframes boxanima {
+	0%{transform: translate(0,0);}
+	25%{transform: translate(200px);
+		background-color: yellow;}
+	50%{transform: translate(200px,200px);
+		background-color: blue;}
+	75%{transform: translate(0,200px);
+		background-color: green;}
+	100%{transform: translate(0);}
+}

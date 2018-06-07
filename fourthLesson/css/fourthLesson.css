@@ -302,7 +302,26 @@ div.bottomRow div.secondBlock div.block:last-child div{
 		order: 1;
 	}
 	
-
 }	
 
+div.cont{
+
+	text-align: center;
+}
+
+div.main{
+	width: 100px;
+	height: 100px;
+	border: 1px solid black;
+	animation-name: animBox;
+	animation-delay: 2s;
+	animation-timing-function: ease;
+}
+
+@keyframes animBox {
+	/* from { } */
+	0% {transform: rotate(45d) };
+	50% {transform: rotate(135d)};
+ 	to { transform: rotate(275d)};
+}  
 
