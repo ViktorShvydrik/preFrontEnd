@@ -1,0 +1,40 @@
+.container-fluid{
+  background-color: #f5f5f5;
+  
+}
+
+.row div div{
+  height: 100px;
+  border: 2px solid grey;
+}
+
+.item-1{
+  background-color: red;
+}
+.item-2{
+  background-color: #00FA9A;
+}
+.item-3{
+  background-color: #2E8B57;
+}
+.item-4{
+  background-color: blue;
+}
+.item-5{
+  background-color: yellow;
+}
+.item-6{
+  background-color: #FF1493;
+}
+.item-7{
+  background-color: green;
+}
+.item-8{
+  background-color: #00f505;
+}
+.item-9{
+  background-color: #FF8C00;
+}
+.item-10{
+  background-color: #9400D3;
+}
